@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historic Bangladesh - A Journey Through Time</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        'bengal-green': '#006a4e',
+                        'bengal-red': '#f42a41',
+                        'antique-cream': '#fdfbf7',
+                        'clay': '#8d5524',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body class="bg-antique-cream text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="relative bg-gray-900 text-white py-24 px-6 text-center overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[url('https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lalbagh_Fort.jpg&width=1200')] bg-cover bg-center opacity-40">
+        </div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="font-serif text-5xl md:text-7xl font-bold mb-4 tracking-wide text-shadow">Historic Bangladesh
+            </h1>
+            <p class="text-xl md:text-2xl font-light text-gray-200">Discover the heritage of the 8 Divisions</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-serif font-bold text-gray-900 mb-4">A Journey Across Divisions</h2>
+            <div class="w-24 h-1 bg-bengal-green mx-auto rounded"></div>
+            <p class="mt-4 text-gray-600 max-w-2xl mx-auto">From the ancient monasteries of the north to the Mughal
+                forts of the center and the mosques of the south, explore the architectural marvels that define
+                Bangladesh.</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+            <!-- 1. Dhaka Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Lalbagh_Fort.jpg&width=600"
+                        alt="Lalbagh Fort"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Dhaka</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Lalbagh Fort</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">A 17th-century Mughal fort complex that stands as a
+                        testament to the architectural brilliance of the era. It features the tomb of Pari Bibi, a
+                        mosque, and the Diwan-i-Aam.</p>
+                    <a href="https://en.wikipedia.org/wiki/Lalbagh_Fort" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 2. Chattogram Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shalban_Vihara.jpg&width=600"
+                        alt="Shalban Vihara"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Chattogram</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Shalban Vihara</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">An ancient Buddhist vihara in Mainamati, Comilla.
+                        Dating back to the 8th century, it was a major center for Buddhist learning and features a
+                        central shrine surrounded by 115 monastic cells.</p>
+                    <a href="https://en.wikipedia.org/wiki/Shalban_Vihara" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 3. Rajshahi Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Somapura_Mahavihara_08.jpg&width=600"
+                        alt="Somapura Mahavihara"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Rajshahi</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Somapura Mahavihara</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">A UNESCO World Heritage Site in Paharpur. Highlights
+                        the greatness of the Pala Empire, this 8th-century monastery is one of the most important
+                        archaeological sites south of the Himalayas.</p>
+                    <a href="https://en.wikipedia.org/wiki/Somapura_Mahavihara" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 4. Khulna Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sixty_Dome_Mosque_(1).jpg&width=600"
+                        alt="Sixty Dome Mosque"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Khulna</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Sixty Dome Mosque</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">Another UNESCO World Heritage Site, located in the
+                        historic Mosque City of Bagerhat. It is the largest mosque in Bangladesh from the Sultanate
+                        period (15th century).</p>
+                    <a href="https://en.wikipedia.org/wiki/Sixty_Dome_Mosque" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 5. Barishal Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <!-- URL Encoded Bengali filename for Bibichini -->
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BF_%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A6%BF_%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80_%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6.jpg&width=600"
+                        alt="Bibichini Shahi Mosque"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Barishal</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Bibichini Shahi Mosque</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">A historic Mughal-era mosque in Betagi, Barguna. Built
+                        in 1659, it sits atop a 30-foot hillock and is named after Bibi Chini, offering a glimpse into
+                        the region's spiritual past.</p>
+                    <a href="https://en.wikipedia.org/wiki/Bibichini_Shahi_Mosque" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 6. Sylhet Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Keane_Bridge_Sylhet.jpg&width=600"
+                        alt="Keane Bridge"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Sylhet</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Keane Bridge</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">A historic landmark of Sylhet city spanning the Surma
+                        River. Built during the British colonial era in 1936, this steel bridge is an iconic symbol of
+                        the region's connection to the past.</p>
+                    <a href="https://en.wikipedia.org/wiki/Keane_Bridge" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 7. Rangpur Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tajhat_Palace_(01).jpg&width=600"
+                        alt="Tajhat Palace"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Rangpur</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Tajhat Palace</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">A historic palace in Rangpur, built in the early 20th
+                        century. It is one of the finest preserved examples of feudal architecture in Bangladesh, now
+                        housing a museum.</p>
+                    <a href="https://en.wikipedia.org/wiki/Tajhat_Palace" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <!-- 8. Mymensingh Division -->
+            <article
+                class="bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 card-hover flex flex-col h-full">
+                <div class="h-56 overflow-hidden relative group">
+                    <img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shashi_Lodge.jpg&width=600"
+                        alt="Shashi Lodge"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute top-4 left-4 bg-bengal-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Mymensingh</div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                    <h3 class="font-serif text-2xl font-bold mb-2 text-gray-900">Shashi Lodge</h3>
+                    <p class="text-gray-600 text-sm mb-4 flex-1">Also known as the Mymensingh Rajbari. Built by Maharaja
+                        Suryakant Acharya Chowdhury, this majestic palace is famous for its classical architecture and
+                        musical staircase.</p>
+                    <a href="https://en.wikipedia.org/wiki/Shashi_Lodge" target="_blank"
+                        class="inline-block text-center w-full py-2 border border-gray-300 rounded hover:bg-bengal-green hover:text-white hover:border-bengal-green transition-colors font-medium text-sm">Learn
+                        More</a>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center border-t border-gray-800">
+        <p>&copy; 2026 Historic Bangladesh. Images courtesy of Wikimedia Commons.</p>
+    </footer>
+
+</body>
+
+</html>
